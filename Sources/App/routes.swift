@@ -5,7 +5,7 @@ func routes(_ app: Application) throws {
         return "It works!"
     }
 
-    app.get("hello") { req -> String in
-        return "Hello, world!"
+    app.get("hallo") { req -> String in
+        return "Hallo, world!"
     }
 }

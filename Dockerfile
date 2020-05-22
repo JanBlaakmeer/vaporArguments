@@ -1,5 +1,4 @@
-# ================================
-# Build image
+
 # ================================
 FROM swift:5.2-bionic as build
 WORKDIR /build
